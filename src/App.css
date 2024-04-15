@@ -164,6 +164,11 @@ body {
   .navbar--items ul > li > a {
     text-decoration: none;
   }
+  .myNavbar > img {
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+  }
   /* Navbar Content */
   .navbar--content {
     color: var(--darkblue);
@@ -179,50 +184,53 @@ body {
   /* Navbar Styler Ends */
   
   /* Hero Section Style */
-  .hero--section {
+  .heroSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 133.333px 85.333px 133.333px;
+    padding: 133px 85px 133px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
     background-color: var(--bg-shade);
   }
-  .hero--section--content-box {
+  #helloSection {
+    padding: 0px 85px 0px;
+  }
+  .heroSection--content-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
   }
-  .hero--section--content {
+  .heroSection--content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 21.333px;
   }
-  .hero--section--content--box > button {
+  .heroSectionDivContent > button {
     margin-top: 21.333px;
   }
-  .hero--section--title {
+  .heroSection--title {
     color: var(--heading-color);
     font-size: 74.667px;
     font-weight: 700;
     line-height: 90px;
     align-self: stretch;
   }
-  .hero--section--title--color {
+  .heroSection--title--color {
     color: var(--primary);
   }
-  .hero--section-description {
+  .heroSection-description {
     color: var(--darkblue);
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
   }
-  .hero--section--img {
+  .heroSection--img {
     display: flex;
   }
-  .hero--section--img > img {
+  .heroSection--img > img {
     width: 100%;
     height: 100%;
   }
@@ -554,7 +562,7 @@ body {
   
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
-    .hero--section--title {
+    .heroSection--title {
       font-size: 68px;
       line-height: 70px;
     }
@@ -592,13 +600,13 @@ body {
     .btn-outline-primary {
       display: none;
     }
-    .hero--section {
+    .heroSection {
       display: flex;
       flex-direction: column-reverse;
       padding-bottom: 70px;
     }
-    .hero--section--title,
-    .hero--section-description,
+    .heroSection--title,
+    .heroSection-description,
     .footer--content {
       text-align: center;
     }
@@ -614,8 +622,8 @@ body {
     }
     .skills--section,
     .portfolio--container,
-    .hero--section--content,
-    .hero--section--content--box {
+    .heroSection--content,
+    .heroSectionDivContent {
       align-items: center;
     }
     .portfolio--container-box {
@@ -637,13 +645,13 @@ body {
     .testimonial--section--card {
       padding: 25px;
     }
-    .hero--section--title,
+    .heroSection--title,
     .skills--section--heading,
     .sections--heading {
       font-size: 35px;
       line-height: 40px;
     }
-    .hero--section--content--box {
+    .heroSectionDivContent {
       gap: 10px;
     }
     .contact--form--container {

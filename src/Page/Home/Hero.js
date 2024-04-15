@@ -1,24 +1,47 @@
 export default function HeroSection() {
     return (
-      <section id="heroSection" className="hero--section">
-        <div className="hero--section--content--box">
-          <div className="hero--section--content">
-            <p className="section--title">Hey, I'm Jean Baptiste</p>
-            <h1 className="hero--section--title">
-              <span className="hero--section-title--color">Full Stack</span>{" "}
+      <>
+      <section id="heroSection" className="heroSection">
+        <div className="heroSectionDivContent">
+          <div className="heroSection--content">
+            <p className="section--title">Hey, I'm Jean Baptiste N.</p>
+            <h1 className="heroSection--title">
+              <span className="heroSection-title--color">Full Stack</span>{" "}
               <br />
               Web Developer
             </h1>
-            <p className="hero--section-description">
+            <p className="heroSection-description">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               <br /> Dolorum, quas. Amet soluta assumenda cum?
             </p>
           </div>
           <button className="btn btn-primary">Get In Touch</button>
         </div>
-        <div className="hero--section--img">
-          <img src="./img/hero_img.png" alt="Hero Section" />
+        <div className="heroSection--img">
+          <img src="./img/profile.png" alt="Hero Section" />
         </div>
       </section>
+      <section id="helloSection" className="heroSection">
+        <div className="heroSection--img">
+          <img src="./img/electronic.png" alt="Hero Section" />
+        </div>
+        <div className="heroSectionDivContent">
+          <div className="heroSection--content">
+            <p className="section--title">Again, I'm also</p>
+            <h1 className="heroSection--title">
+              <span className="heroSection-title--color">Electronics and</span>{" "}
+              <br />
+              Telecommunication Engineer
+            </h1>
+            <p className="heroSection-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              <br /> Dolorum, quas. Amet soluta assumenda cum?
+            </p>
+          </div>
+          {/* <button className="btn btn-primary">Get In Touch</button> */}
+        </div>
+        
+      </section>
+      </>
     );
   }
