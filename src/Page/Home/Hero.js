@@ -11,8 +11,8 @@ export default function HeroSection() {
               Web Developer
             </h1>
             <p className="heroSection-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
+              An organised, efficient, creative and multilinguistic person.
+              <br /> On making and producing a better quality product in the right time. Hire me!
             </p>
           </div>
           <button className="btn btn-primary">Get In Touch</button>
@@ -34,12 +34,11 @@ export default function HeroSection() {
               Telecommunication Engineer
             </h1>
             <p className="heroSection-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
+            An organised, efficient, innovative electronic and telecommunication engineer.
+              <br /> Better quality electronic product and telecommunication basis in the right time. Hire me!
             </p>
-          </div>
-          {/* <button className="btn btn-primary">Get In Touch</button> */}
         </div>
+      </div>
         
       </section>
       </>

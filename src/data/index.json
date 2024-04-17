@@ -2,26 +2,26 @@
     "skills": [
       {
         "id": "1",
-        "src": "./img/product-chain-1.png",
+        "src": "./img/frontend.png",
         "title": "Front-End",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "2",
-        "src": "./img/tag-1.png",
+        "src": "./img/backend.png",
         "title": "Back-End",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
+        "src": "./img/electronics.png",
+        "title": "Electronics",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
+        "src": "./img/telecommunication.png",
+        "title": "Telecommunication",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
