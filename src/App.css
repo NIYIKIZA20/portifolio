@@ -239,7 +239,7 @@ body {
   /* Skills Section Style */
   .skills--section {
     display: flex;
-    padding: 149.33px 85.33px;
+    padding: 60px 85px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -318,7 +318,7 @@ body {
   /* About Us */
   .about--section {
     display: grid;
-    padding: 133.3px 85.3px;
+    padding: 133px 85px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);

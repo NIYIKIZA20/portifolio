@@ -6,18 +6,12 @@ export default function AboutMe() {
         </div>
         <div className="heroSectionDivContent about--section--box">
           <div className="heroSection--content">
-            <p className="section--title">About</p>
             <h1 className="skills-section--heading">About Me</h1>
             <p className="heroSection-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
+            I'm a seasoned web developer with expertise in front-end and back-end technologies like HTML, CSS, JavaScript, React, and Node.js, along with database management using MongoDB and PostgreSQL. I'm passionate about creating seamless and visually appealing websites that deliver exceptional user experiences.
             </p>
             <p className="heroSection-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+            Additionally, I hold a degree in electronics and telecommunications engineering. My skills include designing circuits, PCBs, implementing IoT solutions, Arduino programming, and basic machine learning. This diverse background allows me to blend technical expertise from web development and electronics to innovate across various domains.
             </p>
           </div>
         </div>
