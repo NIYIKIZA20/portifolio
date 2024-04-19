@@ -5,7 +5,6 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Clients Feedback</p>
           <h2 className="sections--heading">Customer Feedback</h2>
         </div>
       </div>
@@ -13,7 +12,7 @@ export default function Testimonial() {
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--review">
-              {Array.from({ length: 5 }, (reviews, index) => (
+              {Array.from({ length: item.count }, (reviews, index) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"

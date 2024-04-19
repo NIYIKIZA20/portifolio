@@ -59,7 +59,7 @@ body {
   }
   .btn-github {
     color: var(--white);
-    background-color: var(--github);
+    background-color: var(--darkblue);
     border: var(--github);
     display: flex;
     flex-direction: row;
@@ -69,7 +69,7 @@ body {
     gap: 16px;
   }
   .btn-github:hover {
-    color: var(--github);
+    color: var(--darkblue);
     background-color: var(--white);
   }
   /* Global CSS Ends */

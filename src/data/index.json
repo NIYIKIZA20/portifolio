@@ -28,50 +28,79 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/employee.png",
+        "title": "Employee Management system",
+        "description": "A PERN stack web app built just to keep business employee inforations in a secure way. You can create update, delete the entire company or  the user(s) inside the company.",
+        "link": "https://github.com/NIYIKIZA20/Employee-management"
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/country.png",
+        "title": "Country web App",
+        "description": "A simple Javascript web app, you can view any country in the world, access its location and population too. in future, you'll be also be able to access its google location.",
+        "link": "https://github.com/NIYIKIZA20/country"
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/landing.png",
+        "title": "Landing page",
+        "description": " a simple HTML landing page built from a textual photo that i have got from a friend.",
+        "link": "https://github.com/NIYIKIZA20/landing-page"
       }
     ],
     "testimonial": [
       {
         "id": "1",
-        "count": "5",
+        "count": "4",
         "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
+        "description": "A skilled junior developer, he built a free portifolio for me in a few days. i think he's a great choice to work with.",
+        "author_name": "Gasana Samuel",
+        "author_designation": "Rwanda"
       },
       {
         "id": "2",
-        "count": "5",
+        "count": "4",
         "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
+        "description": "A man who respect the work, best quality work on the right time. He's also a trust worth person though.",
+        "author_name": "Christian Mpanga ",
+        "author_designation": "Rwanda"
       },
       {
         "id": "3",
         "count": "5",
         "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
+        "description": "a productive, creative and innovative guy that i have ever seen. He' is the best in all.",
+        "author_name": "Mbabazi Charles",
+        "author_designation": "Kigali-Rwanda"
       }
-    ]
-  }
+    ],
+    "experiences":[{"frontend":[
+    {"id":"1","name": "HTML","specs":"Experienced"}, 
+    {"id":"2","name": "CSS","specs":"Experienced"},
+    {"id":"3","name": "Javascript","specs":"Experienced"},
+    {"id":"4","name": "React","specs":"Experienced"},
+    {"id":"5","name": "Bootstrap","specs":"Experienced"},
+    {"id":"6","name": "Tailwind","specs":"Intermediate"},
+    {"id":"7","name": "Next.js","specs":"Intermediate"},
+    {"id":"8","name": "vue","specs":"Intermediate"}
+    ]},
+     {"backend":[
+     {"id":"1", "name":"Nodejs", "specs":"Experienced"},
+     {"id":"2", "name":"Postgres", "specs":"Experienced"},
+     {"id":"3", "name":"MongoDB", "specs":"Intermediate"},
+     {"id":"4", "name":"Express", "specs":"Experienced"},
+     {"id":"5", "name":"Sequelize", "specs":"Intermediate"}]},
+     {"Electronics":[
+      {"id":"1", "name":"Analog circiut design", "specs":"Experienced"},
+      {"id":"2", "name":"Digital circuit design ", "specs":"Experienced"},
+      {"id":"3", "name":"Microcontroler programming", "specs":"Experienced"},
+      {"id":"4", "name":"PCB designs", "specs":"Intermediate"},
+      {"id":"5", "name":"signal Processing", "specs":"Intermediate"},
+      {"id":"5", "name":"Power electronics", "specs":"Intermediate"},
+      {"id":"5", "name":"testing and debuging", "specs":"Intermediate"},
+      {"id":"5", "name":"Simulation tools", "specs":"Intermediate"},
+      {"id":"5", "name":"CAD computer aided designs", "specs":"Intermediate"},
+      {"id":"5", "name":"Project management", "specs":"Intermediate"},
+      {"id":"5", "name":"Electronic components knowledge", "specs":"Intermediate"}]
+
+  }]}
