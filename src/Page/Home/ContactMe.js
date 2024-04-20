@@ -2,10 +2,9 @@ const ContactMe= ()=> {
     return (
       <section id="Contact" className="contact--section">
         <div>
-          <p className="sub--title">Get In Touch</p>
           <h2>Contact Me</h2>
           <p className="text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+            Interested working with me? contact me now!
           </p>
         </div>
         <form className="contact--form--container">

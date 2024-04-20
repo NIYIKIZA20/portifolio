@@ -74,33 +74,41 @@
         "author_designation": "Kigali-Rwanda"
       }
     ],
-    "experiences":[{"frontend":[
-    {"id":"1","name": "HTML","specs":"Experienced"}, 
-    {"id":"2","name": "CSS","specs":"Experienced"},
-    {"id":"3","name": "Javascript","specs":"Experienced"},
-    {"id":"4","name": "React","specs":"Experienced"},
-    {"id":"5","name": "Bootstrap","specs":"Experienced"},
-    {"id":"6","name": "Tailwind","specs":"Intermediate"},
-    {"id":"7","name": "Next.js","specs":"Intermediate"},
-    {"id":"8","name": "vue","specs":"Intermediate"}
-    ]},
-     {"backend":[
-     {"id":"1", "name":"Nodejs", "specs":"Experienced"},
-     {"id":"2", "name":"Postgres", "specs":"Experienced"},
-     {"id":"3", "name":"MongoDB", "specs":"Intermediate"},
-     {"id":"4", "name":"Express", "specs":"Experienced"},
-     {"id":"5", "name":"Sequelize", "specs":"Intermediate"}]},
-     {"Electronics":[
+    "frontend": [
+    {"id":1,"name": "HTML","specs":"Experienced"}, 
+    {"id":2,"name": "CSS","specs":"Experienced"},
+    {"id":3,"name": "Javascript","specs":"Experienced"},
+    {"id":4,"name": "React","specs":"Experienced"},
+    {"id":5,"name": "Bootstrap","specs":"Experienced"},
+    {"id":6,"name": "Tailwind","specs":"Intermediate"},
+    {"id":7,"name": "Next.js","specs":"Intermediate"},
+    {"id":8,"name": "vue","specs":"Intermediate"},
+    {"id":9, "name":"Figma designs", "specs":"Intermediate"},
+    {"id":10, "name":"Nodejs", "specs":"Experienced"},
+    {"id":11, "name":"Postgres", "specs":"Experienced"},
+    {"id":12, "name":"MongoDB", "specs":"Intermediate"},
+    {"id":13, "name":"Express", "specs":"Experienced"},
+    {"id":14, "name":"Sequelize", "specs":"Intermediate"},
+    {"id":15, "name":"Git", "specs":"Experienced"}
+
+     ],
+     "Electronics":[
       {"id":"1", "name":"Analog circiut design", "specs":"Experienced"},
       {"id":"2", "name":"Digital circuit design ", "specs":"Experienced"},
       {"id":"3", "name":"Microcontroler programming", "specs":"Experienced"},
-      {"id":"4", "name":"PCB designs", "specs":"Intermediate"},
-      {"id":"5", "name":"signal Processing", "specs":"Intermediate"},
-      {"id":"5", "name":"Power electronics", "specs":"Intermediate"},
-      {"id":"5", "name":"testing and debuging", "specs":"Intermediate"},
-      {"id":"5", "name":"Simulation tools", "specs":"Intermediate"},
-      {"id":"5", "name":"CAD computer aided designs", "specs":"Intermediate"},
-      {"id":"5", "name":"Project management", "specs":"Intermediate"},
-      {"id":"5", "name":"Electronic components knowledge", "specs":"Intermediate"}]
+      {"id":"4", "name":"PCB designs", "specs":"Experienced"},
+      {"id":"5", "name":"signal Processing", "specs":"Experienced"},
+      {"id":"6", "name":"Power electronics", "specs":"Experienced"},
+      {"id":"7", "name":"testing and debuging", "specs":"Experienced"},
+      {"id":"8", "name":"Simulation tools", "specs":"Experienced"},
+      {"id":"9", "name":"CAD computer aided designs", "specs":"Intermediate"},
+      {"id":"10", "name":"Project management", "specs":"Experienced"},
+      {"id":"11", "name":"Electronic components knowledge", "specs":"Experienced"},
+      {"id":"12", "name":"Telecommunication Systems Design", "specs":"Intermediate"},
+      {"id":"13", "name":"Network Protocols", "specs":"Intermediate"},
+      {"id":"14", "name":"Fiber optics", "specs":"Intermediate"},
+      {"id":"15", "name":"Satellite Communication", "specs":"Intermediate"},
+      {"id":"16", "name":"Digital Signal Processing", "specs":"Intermediate"}
+    ]
 
-  }]}
+  }

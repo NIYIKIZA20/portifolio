@@ -193,9 +193,7 @@ body {
     gap: 32px;
     background-color: var(--bg-shade);
   }
-  #helloSection {
-    padding: 0px 85px 0px;
-  }
+ 
   .heroSection--content-box {
     display: flex;
     flex-direction: column;
@@ -239,11 +237,11 @@ body {
   /* Skills Section Style */
   .skills--section {
     display: flex;
-    padding: 60px 85px;
+    padding: 0px 85px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 106.667px;
+    gap: 106px;
   }
   .skills--section--heading {
     color: var(--heading-color);
@@ -270,6 +268,39 @@ body {
     background: var(--bg-shade);
     min-height: 250px;
   }
+  .experiencesContainer {
+    display: flex;
+    padding: 40px 85px;
+    justify-content: center;
+  }
+  
+  .experiencesSectionDiv {
+    border: 1px  solid var(--primary);
+    border-radius: 15px; 
+    padding: 30px 85px;
+   
+
+  }
+  .experiencesSectionDiv:hover {
+    border-bottom: 6px solid var(--darkblue);
+  }
+  
+  .experiencesSection {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: initial;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction:row;
+       
+  }
+  
+  .experienceIconDiv {
+    display: flex;
+    margin:10px 18px;
+  }
+  
   .skills--section--card:hover {
     border: 1.5px solid blue;
     border-bottom: 4px solid var(--primary); 

@@ -10,7 +10,7 @@ export default function Testimonial() {
       </div>
       <div className="portfolio--section--container">
         {data?.testimonial?.map((item, index) => (
-          <div key={index} className="testimonial--section--card">
+          <div key={index +1} className="testimonial--section--card">
             <div className="testimonial--section--card--review">
               {Array.from({ length: item.count }, (reviews, index) => (
                 <svg
