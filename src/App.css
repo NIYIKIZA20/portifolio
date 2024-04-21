@@ -96,7 +96,7 @@ body {
   
   /* Pragraphs text large medium small */
   /* Body 1 */
-  .text-lg {
+  .contactMe {
     color: var(--darkblue);
     font-size: 18px;
     font-style: normal;
@@ -104,7 +104,7 @@ body {
     line-height: 27px;
   }
   /* Body 2 */
-  .text-md {
+  .textName {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
@@ -112,7 +112,7 @@ body {
     line-height: 24px;
   }
   /* Body 3 */
-  .text-sm {
+  .textTerms {
     color: var(--black);
     font-size: 14px;
     font-style: normal;
@@ -122,7 +122,7 @@ body {
   
   /* Section Titles */
   /* Skills & About Me */
-  .section--title {
+  .sectionTitle {
     color: var(--heading-color);
     font-size: 21px;
     text-align: center;
@@ -154,14 +154,14 @@ body {
     left: 0;
     right: 0;
   }
-  .navbar--items > ul {
+  .navbarItems > ul {
     list-style: none;
     display: flex;
     align-items: flex-start;
     gap: 42.667px;
     text-decoration: none;
   }
-  .navbar--items ul > li > a {
+  .navbarItems ul > li > a {
     text-decoration: none;
   }
   .myNavbar > img {
@@ -170,7 +170,7 @@ body {
     border-radius: 10px;
   }
   /* Navbar Content */
-  .navbar--content {
+  .navbarContent {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
@@ -178,7 +178,7 @@ body {
     line-height: 24px;
     cursor: pointer;
   }
-  .navbar--active-content {
+  .navbarActiveContent {
     color: var(--primary);
   }
   /* Navbar Styler Ends */
@@ -194,13 +194,13 @@ body {
     background-color: var(--bg-shade);
   }
  
-  .heroSection--content-box {
+  .heroSectionContent-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
   }
-  .heroSection--content {
+  .heroSectionContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -209,33 +209,33 @@ body {
   .heroSectionDivContent > button {
     margin-top: 21px;
   }
-  .heroSection--title {
+  .herosectionTitle {
     color: var(--heading-color);
     font-size: 74.667px;
     font-weight: 700;
     line-height: 90px;
     align-self: stretch;
   }
-  .heroSection--title--color {
+  .herosectionTitle--color {
     color: var(--primary);
   }
-  .heroSection-description {
+  .heroSectionDescription {
     color: var(--darkblue);
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
   }
-  .heroSection--img {
+  .heroSectionImg {
     display: flex;
   }
-  .heroSection--img > img {
+  .heroSectionImg > img {
     width: 100%;
     height: 100%;
   }
   /* Hero Section Style Ends */
   
   /* Skills Section Style */
-  .skills--section {
+  .skillsSection {
     display: flex;
     padding: 0px 85px;
     flex-direction: column;
@@ -243,20 +243,20 @@ body {
     align-items: flex-start;
     gap: 106px;
   }
-  .skills--section--heading {
+  .skillsSectionHeading {
     color: var(--heading-color);
     font-size: 64px;
     font-weight: 700;
     line-height: 77px;
   }
-  .skills--section--container {
+  .skillsSectionContainer {
     display: grid;
     justify-content: center;
     align-items: flex-start;
     gap: 42.6px;
     grid-template-columns: repeat(4, 1fr);
   }
-  .skills--section--card {
+  .skillsSectionCard {
     display: flex;
     padding: 32px;
     flex-direction: column;
@@ -278,6 +278,7 @@ body {
     border: 1px  solid var(--primary);
     border-radius: 15px; 
     padding: 30px 85px;
+    width: 100%;
    
 
   }
@@ -293,6 +294,7 @@ body {
     gap: 2rem;
     justify-content: space-around;
     flex-direction:row;
+    
        
   }
   
@@ -301,14 +303,14 @@ body {
     margin:10px 18px;
   }
   
-  .skills--section--card:hover {
+  .skillsSectionCard:hover {
     border: 1.5px solid blue;
     border-bottom: 4px solid var(--primary); 
   }
-  .skills--section--card:hover .skills--section--description {
+  .skillsSectionCard:hover .skillsSectionCardDescription {
     color: var(--darkblue);
   }
-  .skills--section--img {
+  .skillsSectionImg {
     display: flex;
     padding: 13.3px;
     justify-content: center;
@@ -318,26 +320,26 @@ body {
     background: #fff;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
   }
-  .skills--section--img >img {
+  .skillsSectionImg >img {
     width: 100%;
     height: auto;
     max-height: 100px;
 
   }
-  .skills--section--card--content {
+  .skillsSectionCardContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
   }
-  .skills--section--title {
+  .skillsSectionCardTitle {
     color: var(--heading-color);
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
   }
-  .skills--section--description {
+  .skillsSectionCardDescription {
     color: var(--black);
     font-size: 21.3px;
     font-style: normal;
@@ -368,33 +370,33 @@ body {
     align-items: flex-start;
     gap: 80px;
   }
-  .portfolio--container-box {
+  .portfolioContainer-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
   }
-  .portfolio--container {
+  .portfolioContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 21.3px;
   }
-  .portfolio--section--container {
+  .portfolioSectionContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 42.6px;
     width: 100%;
   }
-  .portfolio--section--img {
+  .portfolioSectionImg {
     border-radius: 8px;
     width: 100%;
   }
-  .portfolio--section--img > img {
+  .portfolioSectionImg > img {
     width: 100%;
   }
-  .portfolio--section--card {
+  .portfolioSectionCard {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -406,7 +408,7 @@ body {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
   }
-  .portfolio--section--card--content {
+  .portfolioSectionCardContent {
     display: flex;
     padding: 32px;
     flex-direction: column;
@@ -414,10 +416,10 @@ body {
     gap: 32px;
     align-self: stretch;
   }
-  .portfolio--section--title {
+  .portfolioSectionTitle {
     color: var(--heading-color);
   }
-  .portfolio--link {
+  .portfolioLink {
     text-decoration: none;
     display: flex;
     gap: 16px;
@@ -425,13 +427,13 @@ body {
     padding-bottom: 10.6px;
     font-weight: 600;
   }
-  .portfolio--section--card:hover path {
+  .portfolioSectionCard:hover path {
     stroke: #006b6a;
   }
   /* Portfolio Ends */
   
   /* Testimonial */
-  .testimonial--section {
+  .testimonialDivSection {
     display: flex;
     padding: 112px 84.3px;
     flex-direction: column;
@@ -439,10 +441,10 @@ body {
     gap: 80px;
     background-color: var(--bg-shade);
   }
-  .sections--heading {
+  .sectionsHeading {
     color: var(--heading-color);
   }
-  .testimonial--section--card {
+  .testimonialDivSectionCard {
     display: flex;
     padding: 42.6px;
     flex-direction: column;
@@ -452,28 +454,28 @@ body {
     border-radius: 8px;
     border: 1.33px solid #006b6a;
   }
-  .testimonial--section--card--reviews {
+  .testimonialDivSectionCardReviews {
     display: flex;
     align-items: flex-start;
     gap: 5.33px;
   }
-  .testimonial--section--card--author--detail {
+  .testimonialDivSectionCardReviewAuthorDetail {
     display: flex;
     align-items: center;
     gap: 21.3px;
   }
-  .testimonial--author--name {
+  .testimonialDivAuthorName {
     font-weight: 600;
     color: var(--heading-color);
   }
-  .testimonial--author--designation {
+  .testimonialDivAuthorDesignation {
     color: var(--darkblue);
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
   }
   /* Testimonial Ends */
-  .contact--section {
+  .contactSection {
     display: flex;
     padding: 150px 85px;
     flex-direction: column;
@@ -482,7 +484,7 @@ body {
     text-align: center;
     gap: 64px;
   }
-  .contact--form--container {
+  .contactFormContainer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
@@ -495,7 +497,7 @@ body {
     column-gap: 32px;
     row-gap: 32px;
   }
-  .contact--label {
+  .contactLabel {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -503,7 +505,7 @@ body {
     flex: 1 0 0;
     width: 100%;
   }
-  .contact--input {
+  .contactInput {
     display: flex;
     font-family: "Roboto";
     padding: 16px;
@@ -527,7 +529,7 @@ body {
   select::-ms-expand {
     display: none;
   }
-  .checkbox--label {
+  .checkboxLabel {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -546,7 +548,7 @@ body {
   
   /* Footer Start */
   /* Footer Starts */
-  .footer--container {
+  .footerContainer {
     display: flex;
     padding: 106.667px 85.333px;
     flex-direction: column;
@@ -555,23 +557,23 @@ body {
     align-items: center;
     align-self: stretch;
   }
-  .footer--link--container {
+  .footerLinkContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
   }
-  .footer--items > ul {
+  .footerItems > ul {
     list-style: none;
     display: flex;
     align-items: flex-start;
     gap: 42.667px;
     text-decoration: none;
   }
-  .footer--items ul > li > a {
+  .footerItems ul > li > a {
     text-decoration: none;
   }
-  .footer--social--icon > ul {
+  .footerSocialIcon > ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -586,7 +588,7 @@ body {
     width: 100%;
     background: rgba(40, 41, 56, 0.55);
   }
-  .footer--content--container {
+  .footerContentContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -601,35 +603,35 @@ body {
   
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
-    .heroSection--title {
+    .herosectionTitle {
       font-size: 68px;
       line-height: 70px;
     }
-    .skills--section--title {
+    .skillsSectionCardTitle {
       font-size: 28px;
       line-height: 40px;
     }
   }
   
   @media only screen and (max-width: 1600px) {
-    .skills--section--heading {
+    .skillsSectionHeading {
       font-size: 54px;
       line-height: 70px;
     }
-    .skills--section--container {
+    .skillsSectionContainer {
       gap: 16px;
     }
-    .skills--section--card {
+    .skillsSectionCard {
       gap: 28px;
     }
-    .skills--section--card--content {
+    .skillsSectionCardContent {
       gap: 20px;
     }
-    .skills--section--title {
+    .skillsSectionCardTitle {
       font-size: 23px;
       line-height: 30px;
     }
-    .skills--section--description {
+    .skillsSectionCardDescription {
       font-size: 17.333px;
       line-height: 27px;
     }
@@ -644,34 +646,34 @@ body {
       flex-direction: column-reverse;
       padding-bottom: 70px;
     }
-    .heroSection--title,
-    .heroSection-description,
+    .herosectionTitle,
+    .heroSectionDescription,
     .footer--content {
       text-align: center;
     }
-    .skills--section--container,
+    .skillsSectionContainer,
     .about--section,
-    .portfolio--section--container,
-    .portfolio--container-box,
-    .footer--link--container,
-    .footer--items > ul,
-    .footer--content--container {
+    .portfolioSectionContainer,
+    .portfolioContainer-box,
+    .footerLinkContainer,
+    .footerItems > ul,
+    .footerContentContainer {
       display: flex;
       flex-direction: column;
     }
-    .skills--section,
-    .portfolio--container,
-    .heroSection--content,
+    .skillsSection,
+    .portfolioContainer,
+    .heroSectionContent,
     .heroSectionDivContent {
       align-items: center;
     }
-    .portfolio--container-box {
+    .portfolioContainer-box {
       gap: 30px;
     }
-    .skills--section,
-    .testimonial--section,
-    .contact--section,
-    .footer--container {
+    .skillsSection,
+    .testimonialDivSection,
+    .contactSection,
+    .footerContainer {
       gap: 20px;
       padding-top: 70px;
       padding-bottom: 70px;
@@ -681,19 +683,19 @@ body {
       padding-top: 0;
       padding-bottom: 0;
     }
-    .testimonial--section--card {
+    .testimonialDivSectionCard {
       padding: 25px;
     }
-    .heroSection--title,
-    .skills--section--heading,
-    .sections--heading {
+    .herosectionTitle,
+    .skillsSectionHeading,
+    .sectionsHeading {
       font-size: 35px;
       line-height: 40px;
     }
     .heroSectionDivContent {
       gap: 10px;
     }
-    .contact--form--container {
+    .contactFormContainer {
       width: 100%;
     }
     .container {
@@ -701,8 +703,8 @@ body {
       flex-direction: column;
       gap: 10px;
     }
-    .footer--social--icon > ul,
-    .footer--items > ul {
+    .footerSocialIcon > ul,
+    .footerItems > ul {
       padding: 0;
       align-items: center;
     }
@@ -713,7 +715,7 @@ body {
   
   /* Hamburger menu  */
   
-  .nav__hamburger {
+  .navHumburger {
     display: none;
     width: 1.875rem;
     height: 1.313rem;
@@ -724,7 +726,7 @@ body {
     right: 25px;
   }
   
-  .nav__hamburger__line {
+  .navHumburgerLine {
     display: block;
     height: 0.188rem;
     width: 100%;
@@ -734,14 +736,14 @@ body {
   }
   
   @media screen and (max-width: 1200px) {
-    .nav__hamburger {
+    .navHumburger {
       display: flex;
       z-index: 200;
     }
-    .navbar--items {
+    .navbarItems {
       display: flex;
     }
-    .navbar--items {
+    .navbarItems {
       position: absolute;
       display: flex;
       align-items: center;
@@ -752,34 +754,34 @@ body {
       width: 100%;
       transition: all ease-in-out 0.4s;
     }
-    .navbar--items ul {
+    .navbarItems ul {
       flex-direction: column;
       align-items: center;
       width: 100%;
       padding: 3rem 0 0.6rem;
       z-index: -100;
     }
-    .navbar--items ul li {
+    .navbarItems ul li {
       text-align: center;
     }
-    .navbar--items ul li a {
+    .navbarItems ul li a {
       padding: 0.5rem;
     }
-    .navbar--items {
+    .navbarItems {
       z-index: -1000;
     }
-    .navbar--items.active {
+    .navbarItems.active {
       top: 30px;
     }
-    .nav__hamburger.active :nth-child(1) {
+    .navHumburger.active :nth-child(1) {
       transform: rotate(45deg) translate(0.45rem, 0.1875rem);
     }
   
-    .nav__hamburger.active :nth-child(2) {
+    .navHumburger.active :nth-child(2) {
       opacity: 0;
     }
   
-    .nav__hamburger.active :nth-child(3) {
+    .navHumburger.active :nth-child(3) {
       transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
   }

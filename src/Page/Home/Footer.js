@@ -3,86 +3,86 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer--container">
-      <div className="footer--link--container">
+    <footer className="footerContainer">
+      <div className="footerLinkContainer">
         <div>
           <img src="./img/logo.png" alt="Logo" />
         </div>
-        <div className="footer--items">
+        <div className="footerItems">
           <ul>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 to="heroSection"
-                className="text-md"
+                className="textName"
               >
                 Home
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 to="heroSectionDivContent"
-                className="text-md"
+                className="textName"
               >
                 Portfolio
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 to="AboutMe"
-                className="text-md"
+                className="textName"
               >
                 About Me
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 to="Contact"
-                className="text-md"
+                className="textName"
               >
                 Contact
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 to="testimonial"
-                className="text-md"
+                className="textName"
               >
                 Testimonials
               </Link>
             </li>
           </ul>
         </div>
-        <div className="footer--social--icon">
+        <div className="footerSocialIcon">
           <ul>
             <li>
               <a
                 href="https://www.facebook.com/"
-                className="navbar--content"
+                className="navbarContent"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -103,7 +103,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.instagram.com/"
-                className="navbar--content"
+                className="navbarContent"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -126,7 +126,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.twitter.com/"
-                className="navbar--content"
+                className="navbarContent"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -147,7 +147,7 @@ function Footer() {
             <li>
               <a
                 href="https://www.linkedin.com/"
-                className="navbar--content"
+                className="navbarContent"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -171,45 +171,45 @@ function Footer() {
         </div>
       </div>
       <hr className="divider" />
-      <div className="footer--content--container">
+      <div className="footerContentContainer">
         {/* <p className="footer--content">Made with 💖 by John</p> */}
-        <div className="footer--social--icon">
+        <div className="footerSocialIcon">
           <ul>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Privacy_Policy"
-                className="text-sm"
+                to="PrivacyPolicy"
+                className="textTerms"
               >
                 Privacy Policy
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Terms_of_Service"
-                className="text-sm"
+                to="TermsOfService"
+                className="textTerms"
               >
                 Terms of Service
               </Link>
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="navbarActiveContent"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Cookies_Settings"
-                className="text-sm"
+                to="CookiesSettings"
+                className="textTerms"
               >
                 Cookies Settings
               </Link>

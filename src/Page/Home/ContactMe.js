@@ -1,79 +1,79 @@
 const ContactMe= ()=> {
     return (
-      <section id="Contact" className="contact--section">
+      <section id="Contact" className="contactSection">
         <div>
           <h2>Contact Me</h2>
-          <p className="text-lg">
+          <p className="contactMe">
             Interested working with me? contact me now!
           </p>
         </div>
-        <form className="contact--form--container">
+        <form className="contactFormContainer">
           <div className="container">
-            <label htmlFor="first-name" className="contact--label">
-              <span className="text-md">First Name</span>
+            <label htmlFor="firstName" className="contactLabel">
+              <span className="textName">First Name</span>
               <input
                 type="text"
-                className="contact--input text-md"
-                name="first-name"
-                id="first-name"
+                className="contactInput textName"
+                name="firstName"
+                id="firstName"
                 required
               />
             </label>
-            <label htmlFor="last-name" className="contact--label">
-              <span className="text-md">Last Name</span>
+            <label htmlFor="lastName" className="contactLabel">
+              <span className="textName">Last Name</span>
               <input
                 type="text"
-                className="contact--input text-md"
-                name="last-name"
-                id="last-name"
+                className="contactInput textName"
+                name="lastName"
+                id="lastName"
                 required
               />
             </label>
-            <label htmlFor="email" className="contact--label">
-              <span className="text-md">Email</span>
+            <label htmlFor="email" className="contactLabel">
+              <span className="textName">Email</span>
               <input
                 type="email"
-                className="contact--input text-md"
+                className="contactInput textName"
                 name="email"
                 id="email"
                 required
               />
             </label>
-            <label htmlFor="phone-number" className="contact--label">
-              <span className="text-md">phone-number</span>
+            <label htmlFor="phoneNumber" className="contactLabel">
+              <span className="textName">phoneNumber</span>
               <input
                 type="number"
-                className="contact--input text-md"
-                name="phone-number"
-                id="phone-number"
+                className="contactInput textName"
+                name="phoneNumber"
+                id="phoneNumber"
                 required
               />
             </label>
           </div>
-          <label htmlFor="choode-topic" className="contact--label">
-            <span className="text-md">Choose a topic</span>
-            <select id="choose-topic" className="contact--input text-md">
+          <label htmlFor="chooseTopic" className="contactLabel">
+            <span className="textName">Choose a topic</span>
+            <select id="chooseTopic" className="contactInput textName">
               <option>Select One...</option>
               <option>Item 1</option>
               <option>Item 2</option>
               <option>Item 3</option>
             </select>
           </label>
-          <label htmlFor="message" className="contact--label">
-            <span className="text-md">Message</span>
+          <label htmlFor="message" className="contactLabel">
+            <span className="textName">Message</span>
             <textarea
-              className="contact--input text-md"
+              className="contactInput textName"
               id="message"
               rows="8"
               placeholder="Type your message..."
             />
           </label>
-          <label htmlFor="checkboc" className="checkbox--label">
+          <label htmlFor="checkboc" className="checkboxLabel">
             <input type="checkbox" required name="checkbox" id="checkbox" />
-            <span className="text-sm">I accept the terms</span>
+            <span className="textTerms">I accept the terms</span>
           </label>
           <div>
-            <button className="btn btn-primary contact--form--btn">Submit</button>
+            <button className="btn btn-primary contactForm">Submit</button>
           </div>
         </form>
       </section>

@@ -3,9 +3,9 @@ import data from "../../data/index.json";
 export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <h2 className="section--heading">Recent Projects</h2>
+      <div className="portfolioContainer-box">
+        <div className="portfolioContainer">
+          <h2 className="sectionHeading">Recent Projects</h2>
         </div>
         <div>
           <button className="btn btn-github" >
@@ -27,18 +27,18 @@ export default function MyPortfolio() {
           </button>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div className="portfolioSectionContainer">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
+          <div key={index} className="portfolioSectionCard">
+            <div className="portfolioSectionImg">
               <img src={item.src} alt="Placeholder" />
             </div>
-            <div className="portfolio--section--card--content">
+            <div className="portfolioSectionCardContent">
               <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <h3 className="portfolioSectionTitle">{item.title}</h3>
+                <p className="textName">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link " onClick={()=>window.location = `${item.link}`}>
+              <p className="textTerms portfolioLink " onClick={()=>window.location = `${item.link}`}>
                 {/* {item.link} */} Visit in github
                 <svg 
                   xmlns="http://www.w3.org/2000/svg"

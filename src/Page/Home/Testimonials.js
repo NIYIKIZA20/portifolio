@@ -2,16 +2,16 @@ import data from "../../data/index.json";
 
 export default function Testimonial() {
   return (
-    <section className="testimonial--section" id="testimonial">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <h2 className="sections--heading">Customer Feedback</h2>
+    <section className="testimonialDivSection" id="testimonial">
+      <div className="portfolioContainer-box">
+        <div className="portfolioContainer">
+          <h2 className="sectionsHeading">Customer Feedback</h2>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div className="portfolioSectionContainer">
         {data?.testimonial?.map((item, index) => (
-          <div key={index +1} className="testimonial--section--card">
-            <div className="testimonial--section--card--review">
+          <div key={index +1} className="testimonialDivSectionCard">
+            <div className="testimonialDivSectionCardReview">
               {Array.from({ length: item.count }, (reviews, index) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,14 +27,14 @@ export default function Testimonial() {
                 </svg>
               ))}
             </div>
-            <p className="text-md">{item.description}</p>
-            <div className="testimonial--section--card--author--detail">
+            <p className="textName">{item.description}</p>
+            <div className="testimonialDivSectionCardReviewAuthorDetail">
               <img src={item.src} alt="Avatar" />
               <div>
-                <p className="text-md testimonial--author--name">
+                <p className="textName testimonialDivAuthorName">
                   {item.author_name}
                 </p>
-                <p className="text-md testimonial--author--designation">
+                <p className="textName testimonialDivAuthorDesignation">
                   {item.author_designation}
                 </p>
               </div>

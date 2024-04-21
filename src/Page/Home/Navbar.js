@@ -18,9 +18,7 @@ function Navbar() {
         closeMenu();
       }
     };
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -38,25 +36,25 @@ function Navbar() {
         <img src="./img/logo.png" alt="Logo" />
       </div>
       <a
-        className={`nav__hamburger ${navActive ? "active" : ""}`}
+        className={`navHumburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
+        <span className="navHumburgerLine"></span>
+        <span className="navHumburgerLine"></span>
+        <span className="navHumburgerLine"></span>
       </a>
-      <div className={`navbar--items ${navActive ? "active" : ""}`}>
+      <div className={`navbarItems ${navActive ? "active" : ""}`}>
         <ul>
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeClass="navbarActiveContent"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="heroSection"
-              className="navbar--content"
+              className="navbarContent"
             >
               Home
             </Link>
@@ -64,13 +62,13 @@ function Navbar() {
           <li>
           <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeClass="navbarActiveContent"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="MyPortfolio"
-              className="navbar--content"
+              className="navbarContent"
             >
               Portfolio
             </Link>
@@ -78,13 +76,13 @@ function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeClass="navbarActiveContent"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="AboutMe"
-              className="navbar--content"
+              className="navbarContent"
             >
               About Me
             </Link>
@@ -92,13 +90,13 @@ function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeClass="navbarActiveContent"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="mySkills"
-              className="navbar--content"
+              className="navbarContent"
             >
               Experiences
             </Link>
@@ -107,7 +105,7 @@ function Navbar() {
       </div>
       <Link
         onClick={closeMenu}
-        activeClass="navbar--active-content"
+        activeClass="navbarActiveContent"
         spy={true}
         smooth={true}
         offset={-70}

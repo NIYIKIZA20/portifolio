@@ -1,21 +1,21 @@
 import data from "../../data/index.json";
 
-export default function MySkills() {
+const MySkills = () => {
   return (
     <>
-    <section className="skills--section" id="mySkills">
-      <div className="portfolio--container">
-        <h2 className="skills--section--heading">My Expertise</h2>
+    <section className="skillsSection" id="mySkills">
+      <div className="portfolioContainer">
+        <h2 className="skillsSectionHeading">My Expertise</h2>
       </div>
-      <div className="skills--section--container">
+      <div className="skillsSectionContainer">
         {data?.skills?.map((item, index) => (
-          <div key={index} className="skills--section--card">
-            <div className="skills--section--img">
+          <div key={index} className="skillsSectionCard">
+            <div className="skillsSectionImg">
               <img src={item.src} alt="Product Chain" />
             </div>
-            <div className="skills--section--card--content">
-              <h3 className="skills--section--title">{item.title}</h3>
-              <p className="skills--section--description">{item.description}</p>
+            <div className="skillsSectionCardContent">
+              <h3 className="skillsSectionCardTitle">{item.title}</h3>
+              <p className="skillsSectionCardDescription">{item.description}</p>
             </div>
           </div>        
         ))}
@@ -39,3 +39,5 @@ export default function MySkills() {
   </>
   );
 }
+
+export default MySkills;
