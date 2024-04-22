@@ -31,21 +31,24 @@
         "src": "./img/employee.png",
         "title": "Employee Management system",
         "description": "A PERN stack web app built just to keep business employee inforations in a secure way. You can create update, delete the entire company or  the user(s) inside the company.",
-        "link": "https://github.com/NIYIKIZA20/Employee-management"
+        "github": "https://github.com/NIYIKIZA20/Employee-management",
+        "link": "https://niyikiza-ems.onrender.com/"
       },
       {
         "id": "2",
         "src": "./img/country.png",
         "title": "Country web App",
         "description": "A simple Javascript web app, you can view any country in the world, access its location and population too. in future, you'll be also be able to access its google location.",
-        "link": "https://github.com/NIYIKIZA20/country"
+        "github": "https://github.com/NIYIKIZA20/country",
+        "link": "https://niyikiza20.github.io/country/"
       },
       {
         "id": "3",
         "src": "./img/landing.png",
         "title": "Landing page",
         "description": " a simple HTML landing page built from a textual photo that i have got from a friend.",
-        "link": "https://github.com/NIYIKIZA20/landing-page"
+        "github": "https://github.com/NIYIKIZA20/landing-page",
+        "link": "https://niyikiza20.github.io/landing-page/"
       }
     ],
     "testimonial": [

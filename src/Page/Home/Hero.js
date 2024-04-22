@@ -1,4 +1,11 @@
+import React from "react";
+
 export default function HeroSection() {
+  
+  const openFile = () => {
+    const fileUrl = 'https://drive.google.com/file/d/13QtNITpx-66fdZ5unZp0OFrv1YKC22TE/view?usp=drive_link';
+    window.open(fileUrl, '_blank');
+  }
     return (
       <section id="heroSection" className="heroSection">
         <div className="heroSectionDivContent">
@@ -11,13 +18,14 @@ export default function HeroSection() {
             </h1>
             <p className="heroSectionDescription">
               An organised, efficient,innovative, creative and multilinguistic person.
-              <br /> On making and producing smart a better quality product in the right time. Hire me!
+              <br /> On making and producing smart and better quality product in the right time. Hire me!
             </p>
           </div>
-          <button className="btn btn-primary">Get In Touch</button>
+          <button className="btn btn-primary" >Get In Touch</button>
+          <button className="btn btn-success"  onClick={openFile}> View CV</button>
         </div>
         <div className="heroSectionImg">
-          <img src="./img/profile.png" alt="Hero Section" />
+          <img className="myHelloImage" src="./img/profile.png" alt="Hero Section" />
         </div>
       </section>
     );

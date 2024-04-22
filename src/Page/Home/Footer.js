@@ -172,7 +172,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footerContentContainer">
-        {/* <p className="footer--content">Made with 💖 by John</p> */}
+      <p className="footer--content"> copyright 2024 Niyikiza jean baptiste</p>
         <div className="footerSocialIcon">
           <ul>
             <li>
