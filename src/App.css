@@ -4,6 +4,7 @@ body {
     -webkit-font-smoothing: "Roboto", sans-serif;
     -moz-osx-font-smoothing: "Roboto", sans-serif;
     font-style: normal;
+    background-color: rgba(0, 0, 0, 0.1);
   }
   h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -16,6 +17,7 @@ body {
     --darkblue: #1c1e53;
     --black: #000000;
     --white: #ffffff;
+   
   }
   .btn {
     font-family: "Roboto";
@@ -146,7 +148,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 85.333px;
+    padding: 15px 85px;
     background: var(--white);
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -154,6 +156,12 @@ body {
     left: 0;
     right: 0;
   }
+  .moreActive{
+   background: transparent;
+   align-self: self-end;
+   max-width: 300px;
+   }
+  
   .navbarItems > ul {
     list-style: none;
     display: flex;
@@ -192,6 +200,7 @@ body {
     justify-content: space-between;
     gap: 32px;
     background-color: var(--bg-shade);
+    
   }
  
   .heroSectionContent-box {
@@ -233,11 +242,11 @@ body {
     height: auto;
     border-radius: 50% 50% 0 0;
     background-color: rgb(150,180, 150);
-    box-shadow: 1px 1px 1px 1px rgb(220, 255, 223);
-  
+    box-shadow: 1px 1px 1px 1px rgb(220, 255, 223); 
           
            
   }
+
   /* Hero Section Style Ends */
   
   /* Skills Section Style */
@@ -248,6 +257,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 106px;
+    
   }
   .skillsSectionHeading {
     color: var(--heading-color);
@@ -355,16 +365,20 @@ body {
   /* Skills Style Ends */
   
   /* About Us */
-  .about--section {
+  .aboutSection {
     display: grid;
     padding: 133px 85px;
     align-items: center;
-    gap: 114.6px;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 150px 2px 150px 2px rgba(0, 0, 0, 0.6);
   }
-  .about--section--img > img {
+
+  .aboutSectionImg > img {
+    padding-top: 0px;
     width: 100%;
     height: 100%;
+    border-radius: 50% 50%;
   }
   /* About Us Ends */
   
@@ -442,7 +456,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    background-color: var(--bg-shade);
+    /* background-color: var(--bg-shade); */
   }
   .sectionsHeading {
     color: var(--heading-color);
@@ -554,6 +568,8 @@ body {
     background: var(--bg-shade);
     align-items: center;
     align-self: stretch;
+    box-shadow: 150px 2px 150px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   .footerLinkContainer {
     display: flex;
@@ -582,9 +598,9 @@ body {
   }
   .divider {
     margin: 106px 0 42.67px;
-    height: 1.333px;
+    height: 1.5px;
     width: 100%;
-    background: rgba(40, 41, 56, 0.55);
+    background: rgba(40, 41, 56, 0.6);
   }
   .footerContentContainer {
     display: flex;
@@ -594,7 +610,7 @@ body {
   }
   .footer--content {
     color: var(--black);
-    font-size: 18.667px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 28px;
   }
@@ -629,7 +645,7 @@ body {
       line-height: 30px;
     }
     .skillsSectionCardDescription {
-      font-size: 17.333px;
+      font-size: 17px;
       line-height: 27px;
     }
   }
@@ -649,7 +665,7 @@ body {
       text-align: center;
     }
     .skillsSectionContainer,
-    .about--section,
+    .aboutSection,
     .portfolioSectionContainer,
     .portfolioContainer-box,
     .footerLinkContainer,
@@ -675,7 +691,7 @@ body {
       padding-top: 70px;
       padding-bottom: 70px;
     }
-    .about--section {
+    .aboutSection {
       gap: 20px;
       padding-top: 0;
       padding-bottom: 0;
@@ -710,7 +726,7 @@ body {
     }
   }
   
-  .navHumburger {
+  .aboutSectionBoxr {
     display: none;
     width: 1.875rem;
     height: 1.313rem;
@@ -721,7 +737,7 @@ body {
     right: 25px;
   }
   
-  .navHumburgerLine {
+  .aboutSectionBoxrLine {
     display: block;
     height: 0.188rem;
     width: 100%;
@@ -731,7 +747,7 @@ body {
   }
   
   @media screen and (max-width: 1200px) {
-    .navHumburger {
+    .aboutSectionBoxr {
       display: flex;
       z-index: 200;
     }
@@ -768,15 +784,15 @@ body {
     .navbarItems.active {
       top: 30px;
     }
-    .navHumburger.active :nth-child(1) {
+    .aboutSectionBoxr.active :nth-child(1) {
       transform: rotate(45deg) translate(0.45rem, 0.1875rem);
     }
   
-    .navHumburger.active :nth-child(2) {
+    .aboutSectionBoxr.active :nth-child(2) {
       opacity: 0;
     }
   
-    .navHumburger.active :nth-child(3) {
+    .aboutSectionBoxr.active :nth-child(3) {
       transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
   }

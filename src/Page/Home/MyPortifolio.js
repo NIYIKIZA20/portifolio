@@ -29,8 +29,8 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolioSectionContainer">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolioSectionCard" onClick={()=>window.location = `${item.link}`}>
-            <div className="portfolioSectionImg">
+          <div key={index} className="portfolioSectionCard" >
+            <div className="portfolioSectionImg" onClick={()=>window.open(`${item.link}`, '_blank') }>
               <img src={item.src} alt="Placeholder" />
             </div>
             <div className="portfolioSectionCardContent">
@@ -39,8 +39,8 @@ export default function MyPortfolio() {
                 <p className="textName">{item.description}</p>
               </div>
               <div className="portfolioLink " >
-                <button onClick={()=>window.location = `${item.link}`}>Live demo</button>
-                <button onClick={()=>window.location = `${item.github}`}>github</button>
+                <button onClick={()=>window.open(`${item.link}`, '_blank')}>Live demo</button>
+                <button onClick={()=>window.open(`${item.github}`, '_blank')}>github</button>
               </div>
             </div>
           </div>
