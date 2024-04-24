@@ -55,7 +55,7 @@
       {
         "id": "1",
         "count": "4",
-        "src": "./img/avatar-image.png",
+        "src": "./img/image1.png",
         "description": "A skilled junior developer, he built a free portifolio for me in a few days. i think he's a great choice to work with.",
         "author_name": "Gasana Samuel",
         "author_designation": "Rwanda"
@@ -63,7 +63,7 @@
       {
         "id": "2",
         "count": "4",
-        "src": "./img/avatar-image-1.png",
+        "src": "./img/image2.png",
         "description": "A man who respect the work, best quality work on the right time. He's also a trust worth person though.",
         "author_name": "Christian Mpanga ",
         "author_designation": "Rwanda"
@@ -71,7 +71,7 @@
       {
         "id": "3",
         "count": "5",
-        "src": "./img/avatar-image-2.png",
+        "src": "./img/image3.png",
         "description": "a productive, creative and innovative guy that i have ever seen. He' is the best in all.",
         "author_name": "Mbabazi Charles",
         "author_designation": "Kigali-Rwanda"

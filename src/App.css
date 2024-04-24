@@ -496,6 +496,12 @@ body {
     font-weight: 400;
     line-height: 150%;
   }
+  .testimonialImage {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px 50px;
+    
+  }
   .contactSection {
     display: flex;
     padding: 150px 85px;
