@@ -237,7 +237,7 @@ body {
   .heroSectionImg > img {
     width: 100%;
     height: auto;
-    border-radius: 5% 5% 0 0;
+    border-radius: 50% 50%;
     background-color: rgb(150,180, 150);
     box-shadow: 1px 1px 1px 1px rgb(220, 255, 223); 
           
@@ -245,11 +245,15 @@ body {
   }
  .helloButton{
   display: flex;
-  justify-content: space-around;
+  gap: 8%;
+  margin-top: 8%; 
+}
+.btn-primary, .btn-success {
+  display: flex;
   align-items: center;
-  margin-top: 55px;
-
-
+  justify-content: center;
+  white-space: nowrap;
+  
 }
 
   /* Hero Section Style Ends */
