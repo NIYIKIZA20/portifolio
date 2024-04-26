@@ -1,13 +1,20 @@
+import React from "react";
+
 const ContactMe= ()=> {
+
+  const handleSubmit = ()=>{
+    alert("successively submitted your message");
+  }
+  
     return (
       <section id="Contact" className="contactSection">
         <div>
-          <h2>Contact Me</h2>
+          <h2 className="sectionHeading">Contact Me</h2>
           <p className="contactMe">
             Interested working with me? contact me now!
           </p>
         </div>
-        <form className="contactFormContainer">
+        <form className="contactFormContainer" onSubmit={handleSubmit}>
           <div className="container">
             <label htmlFor="firstName" className="contactLabel">
               <span className="textName">First Name</span>
@@ -54,9 +61,11 @@ const ContactMe= ()=> {
             <span className="textName">Choose a topic</span>
             <select id="chooseTopic" className="contactInput textName">
               <option>Select One...</option>
-              <option>Item 1</option>
-              <option>Item 2</option>
-              <option>Item 3</option>
+              <option>personal information</option>
+              <option> Web design</option>
+              <option>Electronics & telecom</option>
+              <option>job offer</option>
+              <option>Other</option>
             </select>
           </label>
           <label htmlFor="message" className="contactLabel">
@@ -68,10 +77,10 @@ const ContactMe= ()=> {
               placeholder="Type your message..."
             />
           </label>
-          <label htmlFor="checkboc" className="checkboxLabel">
+          {/* <label htmlFor="checkboc" className="checkboxLabel">
             <input type="checkbox" required name="checkbox" id="checkbox" />
             <span className="textTerms">I accept the terms</span>
-          </label>
+          </label> */}
           <div>
             <button className="btn btn-primary contactForm">Submit</button>
           </div>

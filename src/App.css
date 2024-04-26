@@ -110,9 +110,12 @@ body {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 24px;
   }
+  /* .contactInput {
+    max-height: 10px;
+  } */
   /* Body 3 */
   .textTerms {
     color: var(--black);
@@ -247,6 +250,8 @@ body {
   display: flex;
   gap: 8%;
   margin-top: 8%; 
+
+
 }
 .btn-primary, .btn-success {
   display: flex;
@@ -270,8 +275,8 @@ body {
   }
   .skillsSectionHeading {
     color: var(--heading-color);
-    font-size: 64px;
-    font-weight: 700;
+    /* font-size: 64px;
+    font-weight: 700; */
     line-height: 77px;
   }
   .skillsSectionContainer {
@@ -326,6 +331,9 @@ body {
   .experienceIconDiv {
     display: flex;
     margin:10px 18px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
   }
   
   .skillsSectionCard:hover {
@@ -370,6 +378,20 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+  }
+  .experienceItemDiv {
+    display: flex;
+    height: 100%;
+
+
+  }
+  .skillsContainerCard{
+    display: flex;
+    height: 100%;
+  }
+  .sectionHeading {
+    color: var(--heading-color);
+
   }
   /* Skills Style Ends */
   
@@ -428,6 +450,7 @@ body {
   }
   .portfolioSectionCard {
     display: flex;
+    height:100%;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
@@ -457,6 +480,10 @@ body {
   }
   .portfolioSectionCard:hover path {
     stroke: #006b6a;
+  }
+  .portifolioSectionHeading {
+    color: var(--heading-color);
+    padding-top: 35%;
   }
 
   .testimonialDivSection {
@@ -513,20 +540,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 64px;
+    gap: 34px;
   }
   .contactFormContainer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
-    width: 40%;
+    width: 35%;
     row-gap: 32px;
   }
   .container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 32px;
-    row-gap: 32px;
+    row-gap: 12px;
   }
   .contactLabel {
     display: flex;
@@ -567,13 +594,13 @@ body {
     flex: 1 0 0;
     justify-content: flex-start;
   }
-  input[type="checkbox"] {
+  /* input[type="checkbox"] {
     width: 21px;
     height: 21px;
     border: 0.15em solid var(--heading-color);
     border-radius: 0.15em;
     transform: translatey(-0.075em);
-  }
+  } */
  
   .footerContainer {
     display: flex;
@@ -642,10 +669,10 @@ body {
   }
   
   @media only screen and (max-width: 1600px) {
-    .skillsSectionHeading {
+    /* .skillsSectionHeading {
       font-size: 54px;
       line-height: 70px;
-    }
+    } */
     .skillsSectionContainer {
       gap: 16px;
     }
@@ -715,7 +742,6 @@ body {
       padding: 25px;
     }
     .herosectionTitle,
-    .skillsSectionHeading,
     .sectionsHeading {
       font-size: 35px;
       line-height: 40px;

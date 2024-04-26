@@ -4,7 +4,7 @@
         "id": "1",
         "src": "./img/frontend.png",
         "title": "Front-End",
-        "description": " i have a +1 proven exprience in creating visually appealing, user-friendly, and responsive front end components with dedication and couriosity"
+        "description": " i have a +1 proven exprience in creating visually appealing, user-friendly, and responsive front end components."
       },
       {
         "id": "2",
@@ -16,13 +16,13 @@
         "id": "3",
         "src": "./img/electronics.png",
         "title": "Electronics",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "description": "Not only electronic circuit designs and analysis but also the use of various sensors to solve real world problems"
       },
       {
         "id": "4",
         "src": "./img/telecommunication.png",
         "title": "Telecommunication",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "description": "Beside from signal analsyis and testing, but also ensurance of better and secure communication even for long distance."
       }
     ],
     "portfolio": [
