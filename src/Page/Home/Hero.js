@@ -1,6 +1,14 @@
 import React from "react";
 
+
 export default function HeroSection() {
+
+  const scrollToContact = () => {
+    const contactElement = document.getElementById("Contact");
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   
   const openFile = () => {
     const fileUrl = 'https://drive.google.com/file/d/13QtNITpx-66fdZ5unZp0OFrv1YKC22TE/view?usp=drive_link';
@@ -22,7 +30,7 @@ export default function HeroSection() {
             </p>
           </div >
           <div  className="helloButton">
-            <button className="btn btn-primary" >Get In Touch</button>
+            <button className="btn btn-primary" onClick={scrollToContact}>Get In Touch</button>
             <button className="btn btn-success"  onClick={openFile}> View CV</button>
           </div>
         </div>

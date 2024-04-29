@@ -15,7 +15,7 @@ const ContactMe= ()=> {
           </p>
         </div>
         <form className="contactFormContainer" onSubmit={handleSubmit}>
-          <div className="container">
+          <div className="containerContact">
             <label htmlFor="firstName" className="contactLabel">
               <span className="textName">First Name</span>
               <input
@@ -71,7 +71,7 @@ const ContactMe= ()=> {
           <label htmlFor="message" className="contactLabel">
             <span className="textName">Message</span>
             <textarea
-              className="contactInput textName"
+              className="contactInput textName contactInputText"
               id="message"
               rows="8"
               placeholder="Type your message..."

@@ -159,11 +159,11 @@ body {
     left: 0;
     right: 0;
   }
-  .moreActive{
+  /* .moreActive{
    background: transparent;
    align-self: self-end;
    max-width: 300px;
-   }
+   } */
   
   .navbarItems > ul {
     list-style: none;
@@ -549,29 +549,32 @@ body {
     width: 35%;
     row-gap: 32px;
   }
-  .container {
+  /* .container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 32px;
     row-gap: 12px;
-  }
+  } */
   .contactLabel {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10.6px;
+    gap: 6px;
     flex: 1 0 0;
-    width: 100%;
+    width: 95%;
   }
   .contactInput {
     display: flex;
     font-family: "Roboto";
-    padding: 16px;
+    padding: 8px;
     align-items: center;
     align-self: stretch;
     border-radius: 8px;
-    border: 1.333px solid var(--primary);
+    border: 1px solid var(--primary);
     background: var(--white);
+  }
+  .contactInputText{
+    max-height: 40%;
   }
   select {
     -webkit-appearance: none;
@@ -594,13 +597,6 @@ body {
     flex: 1 0 0;
     justify-content: flex-start;
   }
-  /* input[type="checkbox"] {
-    width: 21px;
-    height: 21px;
-    border: 0.15em solid var(--heading-color);
-    border-radius: 0.15em;
-    transform: translatey(-0.075em);
-  } */
  
   .footerContainer {
     display: flex;
@@ -750,12 +746,12 @@ body {
       gap: 10px;
     }
     .contactFormContainer {
-      width: 100%;
+      width: 90%;
     }
-    .container {
+    .containerContact {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 2px;
     }
     .footerSocialIcon > ul,
     .footerItems > ul {
@@ -766,8 +762,10 @@ body {
       margin: 20px;
     }
   }
+
+  /* Hamburger menu  */
   
-  .aboutSectionBoxr {
+  .navHumburger {
     display: none;
     width: 1.875rem;
     height: 1.313rem;
@@ -777,8 +775,7 @@ body {
     top: 25px;
     right: 25px;
   }
-  
-  .aboutSectionBoxrLine {
+  .navHumburgerLine {
     display: block;
     height: 0.188rem;
     width: 100%;
@@ -788,7 +785,7 @@ body {
   }
   
   @media screen and (max-width: 1200px) {
-    .aboutSectionBoxr {
+    .navHumburger {
       display: flex;
       z-index: 200;
     }
@@ -825,15 +822,15 @@ body {
     .navbarItems.active {
       top: 30px;
     }
-    .aboutSectionBoxr.active :nth-child(1) {
+    .navHumburger.active :nth-child(1) {
       transform: rotate(45deg) translate(0.45rem, 0.1875rem);
     }
   
-    .aboutSectionBoxr.active :nth-child(2) {
+    .navHumburger.active :nth-child(2) {
       opacity: 0;
     }
   
-    .aboutSectionBoxr.active :nth-child(3) {
+    .navHumburger.active :nth-child(3) {
       transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
   }
