@@ -9,17 +9,20 @@ const MySkills = () => {
       </div>
       <div className="skillsSectionContainer">
         {data?.skills?.map((item, index) => (
-          <div className="skillsContainerCard">
-          <div key={index} className="skillsSectionCard">
-            <div className="skillsSectionImg">
-              <img src={item.src} alt="Product Chain" />
-            </div>
-            <div className="skillsSectionCardContent">
-              <h3 className="skillsSectionCardTitle">{item.title}</h3>
-              <p className="skillsSectionCardDescription">{item.description}</p>
-            </div>
-          </div>        
-          </div>        
+          
+          
+            <div className="skillsContainerCard">
+            <div key={index} className="skillsSectionCard">
+              <div className="skillsSectionImg">
+                <img src={item.src} alt="Product Chain" />
+              </div>
+              <div className="skillsSectionCardContent">
+                <h3 className="skillsSectionCardTitle">{item.title}</h3>
+                <p className="skillsSectionCardDescription">{item.description}</p>
+              </div>
+            </div>        
+            </div>        
+                 
         ))}
       </div>
     </section>

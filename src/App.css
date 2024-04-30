@@ -381,10 +381,9 @@ body {
   }
   .experienceItemDiv {
     display: flex;
-    height: 100%;
-
-
+    height:max-content;
   }
+  
   .skillsContainerCard{
     display: flex;
     height: 100%;
