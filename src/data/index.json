@@ -46,7 +46,7 @@
         "id": "3",
         "src": "./img/landing.png",
         "title": "Landing page",
-        "description": " a simple HTML landing page built from a textual photo that i have got from a friend.",
+        "description": " a simple HTML landing page built from a textual photo that i have got from a friend. a simple landing page with acurate fonts and sizing as the original.",
         "github": "https://github.com/NIYIKIZA20/landing-page",
         "link": "https://niyikiza20.github.io/landing-page/"
       }
@@ -56,7 +56,7 @@
         "id": "1",
         "count": "4",
         "src": "./img/image1.png",
-        "description": "A skilled junior developer, he built a free portifolio for me in a few days. i think he's a great choice to work with.",
+        "description": "A skilled junior developer; built a free portifolio for me in a few days. He's a great choice to work with.",
         "author_name": "Gasana Samuel",
         "author_designation": "Rwanda"
       },

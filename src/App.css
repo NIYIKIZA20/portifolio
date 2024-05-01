@@ -189,6 +189,9 @@ body {
     line-height: 24px;
     cursor: pointer;
   }
+  .navbarContent:hover {
+    color: var(--github);
+  }
   .navbarActiveContent {
     color: var(--primary);
   }
@@ -443,23 +446,26 @@ body {
   .portfolioSectionImg {
     border-radius: 8px;
     width: 100%;
+    cursor: pointer;
   }
   .portfolioSectionImg > img {
     width: 100%;
   }
+  .portifolioContainerCard{
+    display: flex;
+    height: 100%;
+  }
   .portfolioSectionCard {
     display: flex;
-    height:100%;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
     background: #fff;
+    height:100%;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
   }
+  
   .portfolioSectionCardContent {
     display: flex;
     padding: 32px;
@@ -473,11 +479,30 @@ body {
   }
   .portfolioLink {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+    align-self:auto;
+    gap: 30%;
+    align-items: center;  
   }
-  .portfolioSectionCard:hover path {
+  .liveDemoBtn {
+    display: flex;
+    white-space: nowrap;
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .githubLinkBtn {
+    cursor: pointer;
+    background-color: var(--darkblue);
+    color: var(--white);
+    border-radius: 4px;
+  }
+  .githubLinkBtn:hover,
+  .liveDemoBtn:hover{
+    background-color: var(--bg-shade);
+    color: var(--black);
+  }  
+.portfolioSectionCard:hover path {
     stroke: #006b6a;
   }
   .portifolioSectionHeading {
@@ -527,19 +552,22 @@ body {
     line-height: 150%;
   }
   .testimonialImage {
+    width:77px;
+    height:77px;
     max-width: 100px;
     max-height: 100px;
-    border-radius: 50px 50px;
+    border-radius: 50% 50%;
     
   }
   .contactSection {
     display: flex;
-    padding: 150px 85px;
+    padding: 40px 85px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 34px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   }
   .contactFormContainer {
     display: grid;
@@ -548,12 +576,7 @@ body {
     width: 35%;
     row-gap: 32px;
   }
-  /* .container {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 32px;
-    row-gap: 12px;
-  } */
+
   .contactLabel {
     display: flex;
     flex-direction: column;
@@ -622,7 +645,11 @@ body {
     text-decoration: none;
   }
   .footerItems ul > li > a {
+    cursor: pointer;
     text-decoration: none;
+  }
+  .footerItems ul > li > a:hover {
+    color: var(--github);
   }
   .footerSocialIcon > ul {
     list-style: none;
