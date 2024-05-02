@@ -25,7 +25,7 @@ export default function HeroSection() {
               Web Dev
             </h1>
             <p className="heroSectionDescription">
-              An organised, efficient,innovative, creative and multilinguistic person.
+              An organised, efficient, innovative, creative and multilinguistic person.
               <br /> On making and producing smart and better quality product in the right time. Hire me!
             </p>
           </div >

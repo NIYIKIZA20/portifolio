@@ -27,13 +27,12 @@ const ContactMe= ()=> {
               />
             </label>
             <label htmlFor="lastName" className="contactLabel">
-              <span className="textName">Last Name</span>
+              <span className="textName">Last Name (optional)</span>
               <input
                 type="text"
                 className="contactInput textName"
                 name="lastName"
                 id="lastName"
-                required
               />
             </label>
             <label htmlFor="email" className="contactLabel">
@@ -47,13 +46,12 @@ const ContactMe= ()=> {
               />
             </label>
             <label htmlFor="phoneNumber" className="contactLabel">
-              <span className="textName">phoneNumber</span>
+              <span className="textName">phoneNumber(optional)</span>
               <input
                 type="number"
                 className="contactInput textName"
                 name="phoneNumber"
                 id="phoneNumber"
-                required
               />
             </label>
           </div>
@@ -77,12 +75,8 @@ const ContactMe= ()=> {
               placeholder="Type your message..."
             />
           </label>
-          {/* <label htmlFor="checkboc" className="checkboxLabel">
-            <input type="checkbox" required name="checkbox" id="checkbox" />
-            <span className="textTerms">I accept the terms</span>
-          </label> */}
           <div>
-            <button className="btn btn-primary contactForm">Submit</button>
+            <button className="btn btn-primary contactForm contactSubmit">Submit</button>
           </div>
         </form>
       </section>

@@ -1,3 +1,4 @@
+/* Global css styles*/
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -74,7 +75,7 @@ body {
     color: var(--darkblue);
     background-color: var(--white);
   }
-  /* Global CSS Ends */
+
   /* Main Headings */
   
   /* Heading 1 */
@@ -113,9 +114,7 @@ body {
     font-weight: 200;
     line-height: 24px;
   }
-  /* .contactInput {
-    max-height: 10px;
-  } */
+  
   /* Body 3 */
   .textTerms {
     color: var(--black);
@@ -123,6 +122,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
+  }
+  .textTerms:hover {
+    color: var(--github);
   }
   
   /* Section Titles */
@@ -159,11 +161,6 @@ body {
     left: 0;
     right: 0;
   }
-  /* .moreActive{
-   background: transparent;
-   align-self: self-end;
-   max-width: 300px;
-   } */
   
   .navbarItems > ul {
     list-style: none;
@@ -195,13 +192,13 @@ body {
   .navbarActiveContent {
     color: var(--primary);
   }
-  /* Navbar Styler Ends */
+
   
   /* Hero Section Style */
   .heroSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 133px 85px 10px;
+    padding: 100px 85px 10px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -253,8 +250,10 @@ body {
   display: flex;
   gap: 8%;
   margin-top: 8%; 
-
-
+}
+.btn-success:hover {
+  color: var(--white);
+  background-color: var(--primary);
 }
 .btn-primary, .btn-success {
   display: flex;
@@ -278,8 +277,6 @@ body {
   }
   .skillsSectionHeading {
     color: var(--heading-color);
-    /* font-size: 64px;
-    font-weight: 700; */
     line-height: 77px;
   }
   .skillsSectionContainer {
@@ -321,6 +318,7 @@ body {
   
   .experiencesSection {
     max-width: 800px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: initial;
@@ -400,12 +398,12 @@ body {
   /* About Us */
   .aboutSection {
     display: grid;
-    padding: 133px 85px;
+    padding: 55px 85px;
     align-items: center;
     gap: 64px;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 150px 2px 150px 2px rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 150px 2px 150px 2px rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.12);
   }
 
   .aboutSectionImg > img {
@@ -417,9 +415,10 @@ body {
   /* About Us Ends */
   
   /* My Portfolio Starts */
-  .portfolio--section {
+  .portfolioSection {
     display: flex;
-    padding: 112px 85px;
+    padding: 50px 85px;
+    box-shadow: 150px 2px 150px 2px rgba(0, 0, 0, 0.15);
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
@@ -512,11 +511,10 @@ body {
 
   .testimonialDivSection {
     display: flex;
-    padding: 112px 84px;
+    padding: 50px 84px;
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    /* background-color: var(--bg-shade); */
   }
   .sectionsHeading {
     color: var(--heading-color);
@@ -566,7 +564,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 34px;
+    gap: 15px;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   }
   .contactFormContainer {
@@ -574,16 +572,16 @@ body {
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
     width: 35%;
-    row-gap: 32px;
+    row-gap: 8px;
   }
 
   .contactLabel {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 6px;
     flex: 1 0 0;
     width: 95%;
+   
   }
   .contactInput {
     display: flex;
@@ -596,7 +594,13 @@ body {
     background: var(--white);
   }
   .contactInputText{
-    max-height: 40%;
+    max-height: 100px;
+    height: 100%;
+  }
+  .contactSubmit {
+    display: flex;
+    margin-top: 20px;
+    max-height: 40px;
   }
   select {
     -webkit-appearance: none;
@@ -610,14 +614,6 @@ body {
   
   select::-ms-expand {
     display: none;
-  }
-  .checkboxLabel {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10.6px;
-    flex: 1 0 0;
-    justify-content: flex-start;
   }
  
   .footerContainer {
@@ -660,6 +656,9 @@ body {
     flex-shrink: 0;
     text-decoration: none;
   }
+  .footerSocialIcon > ul:hover {
+    color: var(--github);
+  }
   .divider {
     margin: 106px 0 42.67px;
     height: 1.5px;
@@ -672,14 +671,18 @@ body {
     align-items: center;
     align-self: stretch;
   }
-  .footer--content {
-    color: var(--black);
-    font-size: 19px;
-    font-weight: 400;
+  .footerContent {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-weight: bold;
     line-height: 28px;
-  }
   
-  @media only screen and (max-width: 1800px) {
+  }
+  .footerContent:hover {
+    color: var(--heading-color);
+    font-weight: bold;
+  }
+    @media only screen and (max-width: 1800px) {
     .herosectionTitle {
       font-size: 68px;
       line-height: 70px;
@@ -691,10 +694,6 @@ body {
   }
   
   @media only screen and (max-width: 1600px) {
-    /* .skillsSectionHeading {
-      font-size: 54px;
-      line-height: 70px;
-    } */
     .skillsSectionContainer {
       gap: 16px;
     }
@@ -725,7 +724,7 @@ body {
     }
     .herosectionTitle,
     .heroSectionDescription,
-    .footer--content {
+    .footerContent {
       text-align: center;
     }
     .skillsSectionContainer,

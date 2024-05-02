@@ -172,7 +172,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footerContentContainer">
-      <p className="footer--content"> copyright 2024 Niyikiza jean baptiste</p>
+      <p className="footerContent"> Copyright &copy; {new Date().getFullYear()} Jean Baptiste NIYIKIZA. All rights reserved.</p>
         <div className="footerSocialIcon">
           <ul>
             <li>
