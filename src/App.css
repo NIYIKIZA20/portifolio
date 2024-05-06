@@ -477,6 +477,7 @@ body {
     color: var(--heading-color);
   }
   .portfolioLink {
+
     display: flex;
     align-self:auto;
     gap: 30%;
@@ -859,5 +860,12 @@ body {
       transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
   }
+
+    @media screen and (max-width: 400px) {
+      .portfolioLink {
+        display: flex;
+        gap: 2px;
+      }
+    }
   
  
