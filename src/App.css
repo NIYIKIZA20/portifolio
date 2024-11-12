@@ -25,10 +25,17 @@ body {
     --heading-color: #e6f2f4;
     --bg-shade: #f5fcff0d;
     --github: #e62872;
-    --darkblue: #1c5350;
+    --darkblue: #ffffff;
     --black: #ffffff;
     --white: hwb(0 0% 100%);
   }
+  .dark > img{
+    max-width: 50px;
+    max-height:30px;
+    padding: 5px;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+  } 
   .btn {
     font-family: "Roboto";
     display: inline-block;

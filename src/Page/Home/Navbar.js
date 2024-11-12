@@ -120,7 +120,7 @@ function Navbar() {
         Contact Me
       </Link>
       <div className="dark" onClick={toggleDark}>
-        <img src='./img/lightIcon.png'/>
+        <img src='./img/lightIcon.png' />
       </div>
     </nav>
   );
