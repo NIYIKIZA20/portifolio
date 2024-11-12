@@ -16,7 +16,7 @@ body {
     --bg-shade: #f5fcff;
     --github: #e62872;
     --darkblue: #1c1e53;
-    --black: #000000;
+    --black: hwb(0 0% 100%);
     --white: #ffffff;
    
   }
