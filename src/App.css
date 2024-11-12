@@ -20,6 +20,15 @@ body {
     --white: #ffffff;
    
   }
+  body.dark {
+    --primary: #281e4e;
+    --heading-color: #e6f2f4;
+    --bg-shade: #f5fcff0d;
+    --github: #e62872;
+    --darkblue: #1c5350;
+    --black: #ffffff;
+    --white: hwb(0 0% 100%);
+  }
   .btn {
     font-family: "Roboto";
     display: inline-block;

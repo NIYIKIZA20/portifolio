@@ -7,6 +7,10 @@ function Navbar() {
   const toggleNav = () => {
     setNavActive(!navActive);
   };
+ 
+  const toggleDark = () =>{
+    document.body.classList.toggle('dark');
+  }
 
   const closeMenu = () => {
     setNavActive(false);
@@ -115,6 +119,9 @@ function Navbar() {
       >
         Contact Me
       </Link>
+      <div className="dark" onClick={toggleDark}>
+        <img src='./img/lightIcon.png'/>
+      </div>
     </nav>
   );
 }
